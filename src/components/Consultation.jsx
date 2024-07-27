@@ -1,8 +1,13 @@
 import { memo, useRef, useState } from "react";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import emailjs from "@emailjs/browser";
 import { PhoneInput } from "react-international-phone";
 import Msg from "./Msg";
+=======
+import emailjs from '@emailjs/browser';
+import PhoneInput from 'react-phone-number-input';
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 =======
 import emailjs from '@emailjs/browser';
 import PhoneInput from 'react-phone-number-input';
@@ -11,6 +16,7 @@ import { getToast, getToastWarn } from "../services/option";
 import formbg from "../assets/form-bg.png";
 
 // million-ignore
+<<<<<<< HEAD
 <<<<<<< HEAD
 const Consultation = (props) => {
   const { bg = "" } = props;
@@ -177,6 +183,8 @@ const Consultation = (props) => {
 
 export default memo(Consultation);
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 const Consultation = () => {
     const [phoneNumber, setPhoneNumber] = useState(null);
     const name_ref = useRef();
@@ -291,5 +299,9 @@ const Consultation = () => {
     )
 }
 
+<<<<<<< HEAD
+export default memo(Consultation);
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 export default memo(Consultation);
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149

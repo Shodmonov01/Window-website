@@ -1,5 +1,6 @@
 import { useRef, useState } from "react";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import emailjs from "@emailjs/browser";
 import { getToast, getToastWarn } from "../../services/option";
 import check from "../../assets/icon/check_gold.svg";
@@ -112,11 +113,16 @@ const data3 = [
   },
 ];
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 import emailjs from '@emailjs/browser';
 import PhoneInput from 'react-phone-number-input';
 import cardDatailimg from "../../assets/card-detail.png";
 import Slider from "../../components/Slider";
 import { getToast, getToastWarn } from "../../services/option";
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 
 const AboutUs = () => {
@@ -125,7 +131,11 @@ const AboutUs = () => {
   const [open, setOpen] = useState(false);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   const submitHandler = (e) => {
+=======
+  const submitHandler = e => {
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 =======
   const submitHandler = e => {
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
@@ -136,6 +146,7 @@ const AboutUs = () => {
         // send email
         let templateParams = {
           from_name: name_ref.current.value,
+<<<<<<< HEAD
 <<<<<<< HEAD
           message:
             "Меня зовут " +
@@ -255,6 +266,8 @@ const AboutUs = () => {
             </div>
           </div>
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
           message: "Меня зовут " + name_ref.current.value + ". Мой номер телефона: " + phoneNumber
         }
         emailjs.send(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, templateParams, import.meta.env.VITE_PUBLIC_KEY)
@@ -331,11 +344,15 @@ const AboutUs = () => {
             Северо-Западного региона. Производственные мощности завода
             составляют около 20000 м2 готовой продукции в месяц.
           </p>
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
         </div>
       </div>
 
       <div
+<<<<<<< HEAD
 <<<<<<< HEAD
         className="bg-[#212121] py-12 text-white my-[20px] lg:my-[108px]"
         data-aos="fade-down-left"
@@ -345,6 +362,8 @@ const AboutUs = () => {
           <span className="text-[23px] font-Montserrat mb-4 text-center md:text-left lg:text-[30px] xl:text-[45px] font-bold uppercase flex items-center gap-3 justify-center">
             {"ЗА ЧЕСТНОСТЬ И КАЧЕСТВО".split(" ").map((item, index) => (
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
         className="bg-[#212121] py-12 text-white my-[70px] lg:my-[108px]"
         data-aos="fade-down-left"
         data-aos-delay={500}
@@ -356,11 +375,15 @@ const AboutUs = () => {
                     data-aos-delay={550}
                 >ЗА ЧЕСТНОСТЬ И КАЧЕСТВО</span>
             {/* {"ЗА ЧЕСТНОСТЬ И КАЧЕСТВО".split(" ").map((item, index) => (
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
               <div
                 key={Math.random().toString()}
                 data-aos="fade-right"
                 data-aos-delay={500 + (index + 1) * 150}
+<<<<<<< HEAD
 <<<<<<< HEAD
                 className="bg_linear_gradient_txt"
               >
@@ -434,6 +457,8 @@ const AboutUs = () => {
                   <span className="text-[#CEA654]"> КАЧЕСТВО НА ГОДА</span>{" "}
                   превыше всего!
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
               >
                 {item}
               </div>
@@ -476,6 +501,9 @@ const AboutUs = () => {
                 </span>
                 <span className="text-[15px] lg:text-[18px]">
                   Наша цель - создать наилучшие решения для каждого заказа! Ведь КАЧЕСТВО НА ГОДА превыше всего!
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
                 </span>
               </div>
@@ -484,6 +512,7 @@ const AboutUs = () => {
         </div>
       </div>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
       <Layout>
         <div className="">
@@ -531,6 +560,8 @@ const AboutUs = () => {
       <div className="mt-24">
         <Consultation />
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
       <div className="max-w-screen-xl mx-auto">
         <h2
           className="text-[23px] font-Montserrat text-dark mb-0 text-center md:text-left md:text-[45px] font-bold uppercase"
@@ -693,6 +724,9 @@ const AboutUs = () => {
             />
           </div>
         </div>
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
       </div>
     </div>

@@ -54,9 +54,15 @@ function ContactInfo() {
             )}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             <span className="fixed bottom-8 right-8 flex h-12 w-12 z-10 cursor-pointer" onClick={() => setVisible(!visible)}>
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#dfc38e] opacity-75"></span>
                 <span className="relative rounded-full h-12 w-12 bg-[#dfc38e] flex items-center justify-center animate-wiggle">
+=======
+            <span class="fixed bottom-8 right-8 flex h-12 w-12 z-10 cursor-pointer" onClick={() => setVisible(!visible)}>
+                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#dfc38e] opacity-75"></span>
+                <span class="relative rounded-full h-12 w-12 bg-[#dfc38e] flex items-center justify-center animate-wiggle">
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 =======
             <span class="fixed bottom-8 right-8 flex h-12 w-12 z-10 cursor-pointer" onClick={() => setVisible(!visible)}>
                 <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#dfc38e] opacity-75"></span>

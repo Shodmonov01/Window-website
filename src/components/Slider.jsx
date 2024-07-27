@@ -5,6 +5,7 @@ import sliderNav_l from "../assets/slider-arrow-l.svg";
 import sliderNav_r from "../assets/slider-arrow-r.svg";
 import sliderImd from "../assets/slider-img.png";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import slider1 from "../assets/MainSlider/main (1).webp";
 import slider2 from "../assets/MainSlider/main (2).webp";
 import slider3 from "../assets/MainSlider/main (3).webp";
@@ -241,6 +242,8 @@ function Slider(props) {
 
 export default memo(Slider);
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 import slider1 from "../assets/slider/1.jpg";
 import slider2 from "../assets/slider/2.jpg";
 import slider3 from "../assets/slider/3.jpg";
@@ -420,5 +423,9 @@ function Slider() {
     )
 }
 
+<<<<<<< HEAD
+export default memo(Slider);
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 export default memo(Slider);
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149

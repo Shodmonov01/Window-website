@@ -12,9 +12,12 @@ import heroImg4 from "../../assets/HeroImg-4.svg";
 import homeIcon from "../../assets/home/homeIcon.svg";
 import gift from "../../assets/home/gift.png";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import Layout from "../../components/Layout";
 import Msg from "../../components/Msg";
 import { Helmet } from "react-helmet";
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 =======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 
@@ -22,6 +25,7 @@ const Home = () => {
   const [visible, setVisible] = useState(false);
 
   return (
+<<<<<<< HEAD
 <<<<<<< HEAD
     <div className="bg-[#E6E4E4]">
       <Helmet>
@@ -68,6 +72,8 @@ const Home = () => {
           </div>
         </Layout>
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
     <div className="home bg-[#FAF9F9]">
       <main className="hero py-0 lg:py-[80px] relative flex items-center">
         <div
@@ -89,6 +95,9 @@ const Home = () => {
             <img src={homeIcon} alt="" className="block lg:hidden" />
           </div>
         </div>
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
       </main>
 
@@ -110,9 +119,12 @@ const Home = () => {
       {/* about us */}
       <AboutUs />
 <<<<<<< HEAD
+<<<<<<< HEAD
 
       {/* msg yandex */}
       <Msg />
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 =======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
     </div>

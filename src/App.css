@@ -19,6 +19,7 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .bg_linear_gradient {
   /* background: linear-gradient(93.91deg, rgb(223, 195, 142), rgb(206, 166, 84)); */
   background: linear-gradient(180.00deg, rgb(247, 239, 138), rgb(226, 194, 131));
@@ -38,6 +39,8 @@
   text-fill-color: transparent;
 }
 
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 =======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 ::-webkit-scrollbar {
@@ -95,7 +98,11 @@ li {
 .why-us .card-wrapp {
   height: 604px;
 <<<<<<< HEAD
+<<<<<<< HEAD
   /* background: url("./assets/blok.png") no-repeat center; */
+=======
+  background: url("./assets/blok.png") no-repeat center;
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 =======
   background: url("./assets/blok.png") no-repeat center;
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
@@ -138,6 +145,10 @@ li {
 .mySwiper .swiper-wrapper .swiper-slide-active {
   width: 920px !important;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  /* margin-right: 050px; */
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 =======
   /* margin-right: 050px; */
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
@@ -145,6 +156,7 @@ li {
 }
 
 .mySwiper .swiper-wrapper .swiper-slide-prev {
+<<<<<<< HEAD
 <<<<<<< HEAD
   margin-left: -160px;
 }
@@ -164,12 +176,18 @@ li {
 }
 
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
+  margin-left: -150px;
+}
+
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 .mySwiper .swiper-wrapper .swiper-slide img {
   max-width: 1000px;
   width: 100%;
   height: 100%;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* right */
 .mySwiper_services .swiper-slide,
@@ -220,6 +238,8 @@ li {
 
 =======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 .collapse-arrow>.collapse-title:after {
   color: #DFC38E;
 }
@@ -243,6 +263,7 @@ li {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* new phone internatinal */
 .react-international-phone-country-selector {
   display: none !important;
@@ -265,6 +286,10 @@ li {
 .PhoneInputCountry {
   display: none;
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
+.PhoneInputCountry {
+  display: none;
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 }
 
 
@@ -277,17 +302,23 @@ li {
   text-align: center;
   font-size: 18px;
 <<<<<<< HEAD
+<<<<<<< HEAD
   /* background: #E6E4E4; */
   /* display: flex; */
   justify-content: center;
   align-items: center;
   border-radius: 16px;
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
   background: #fff;
 
   display: flex;
   justify-content: center;
   align-items: center;
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 }
 
@@ -298,6 +329,7 @@ li {
   object-fit: cover;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 
@@ -331,6 +363,8 @@ li {
 
 =======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 @keyframes animeCorner {
   0% {
     width: 0;
@@ -343,6 +377,7 @@ li {
   }
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 @media (min-width: 1400px) {
   .mySwiper_services .swiper-wrapper .swiper-slide-active {
@@ -384,6 +419,8 @@ li {
 
 =======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 @media only screen and (max-width: 768px) {
   .title {
     font-size: 35px;
@@ -393,6 +430,10 @@ li {
     margin-top: 50px;
     height: 1300px;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    background: url("./assets/Group48413.png") no-repeat center;
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 =======
     background: url("./assets/Group48413.png") no-repeat center;
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
@@ -402,6 +443,7 @@ li {
   .phone input {
     margin: 0;
   }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
   /* swiper new */
@@ -527,6 +569,8 @@ li {
   }
 =======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 }
 
 @media only screen and (max-width: 425px) {
@@ -549,8 +593,13 @@ li {
 
   .mySwiper .swiper-wrapper .swiper-slide-active {
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 350px !important;
     margin-right: 50px;
+=======
+    width: 1000px !important;
+    margin-right: 050px;
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 =======
     width: 1000px !important;
     margin-right: 050px;
@@ -560,8 +609,12 @@ li {
 
   .mySwiper .swiper-wrapper .swiper-slide-prev {
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin-left: 40px;
     /* margin: 0 auto; */
+=======
+    margin-left: -150px;
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 =======
     margin-left: -150px;
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
@@ -569,6 +622,7 @@ li {
 
   .mySwiper .swiper-wrapper .swiper-slide img {
     max-width: 1000px;
+<<<<<<< HEAD
 <<<<<<< HEAD
     width: 80%;
     /* min-height: 100%; */
@@ -714,6 +768,12 @@ li {
     padding-left: 0rem !important;
   }
   }
+=======
+    width: 100%;
+    height: 100%;
+  }
+}
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 =======
     width: 100%;
     height: 100%;

@@ -7,6 +7,7 @@ import sliderNav_r from "../assets/slider-arrow-r.svg";
 // million-ignore
 function GlassUnits({ data, openModalHandlerGlassUnits }) {
 <<<<<<< HEAD
+<<<<<<< HEAD
   const swiperRef = useRef();
 
   return (
@@ -17,6 +18,8 @@ function GlassUnits({ data, openModalHandlerGlassUnits }) {
         </span>
         {/* {"Виды стеклопакетов".split(" ").map((item, index) => (
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
     const swiperRef = useRef();
 
     return (
@@ -27,6 +30,9 @@ function GlassUnits({ data, openModalHandlerGlassUnits }) {
                     data-aos-delay={500}
                 >Виды стеклопакетов</span>
                 {/* {"Виды стеклопакетов".split(" ").map((item, index) => (
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
                     <span
                         key={Math.random().toString()}
@@ -34,6 +40,7 @@ function GlassUnits({ data, openModalHandlerGlassUnits }) {
                         data-aos-delay={500 + (index + 1) * 150}
                     >{item}</span>
                 ))} */}
+<<<<<<< HEAD
 <<<<<<< HEAD
       </span>
       <Swiper
@@ -114,6 +121,8 @@ function GlassUnits({ data, openModalHandlerGlassUnits }) {
 
 export default memo(GlassUnits);
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
             </span>
             <Swiper
                 onBeforeInit={(swiper) => {
@@ -182,5 +191,9 @@ export default memo(GlassUnits);
     )
 }
 
+<<<<<<< HEAD
+export default memo(GlassUnits);
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 export default memo(GlassUnits);
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149

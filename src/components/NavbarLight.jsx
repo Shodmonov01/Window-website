@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Fragment, useCallback, useState } from "react";
 import { Menu, Transition } from "@headlessui/react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
@@ -18,6 +19,8 @@ import location from "../assets/navbar/location.svg";
 import whatsapp from "../assets/Whatsapp.svg";
 import ConsultationModal from "./ConsultationModal";
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 import { Fragment, useState } from 'react';
 import { Menu, Transition } from '@headlessui/react'
 import { Link, useLocation, useNavigate } from "react-router-dom";
@@ -29,6 +32,9 @@ import LogoGold from "../assets/Logo.png";
 import vk from "../assets/vk.svg";
 import wh from "../assets/whatsup.svg";
 import tg from "../assets/tg.png";
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 
 const menuLink = [
@@ -36,7 +42,11 @@ const menuLink = [
     id: Math.random().toString(),
     link: "/services",
 <<<<<<< HEAD
+<<<<<<< HEAD
     name: "Услуги",
+=======
+    name: "Услуги"
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 =======
     name: "Услуги"
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
@@ -45,7 +55,11 @@ const menuLink = [
     id: Math.random().toString(),
     link: "/payment",
 <<<<<<< HEAD
+<<<<<<< HEAD
     name: "Договор и оплата",
+=======
+    name: "Оплата"
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 =======
     name: "Оплата"
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
@@ -53,6 +67,7 @@ const menuLink = [
   {
     id: Math.random().toString(),
     link: "/about-us",
+<<<<<<< HEAD
 <<<<<<< HEAD
     name: "О компании",
   },
@@ -73,10 +88,14 @@ const menuLink = [
 =======
     name: "О нас"
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
+    name: "О нас"
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
   },
   {
     id: Math.random().toString(),
     link: "/contact",
+<<<<<<< HEAD
 <<<<<<< HEAD
     name: "Контакты",
   },
@@ -125,12 +144,16 @@ const menuLinkMobile = [
 =======
     name: "Контакты"
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
+    name: "Контакты"
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
   },
 ];
 
 const dropdownMenuLink = [
   {
     id: Math.random().toString(),
+<<<<<<< HEAD
 <<<<<<< HEAD
     link: "/category/plastic_window",
     name: "Металлопластиковые изделия",
@@ -143,12 +166,20 @@ const dropdownMenuLink = [
     link: "/category/aluminum_window",
     name: "Алюминиевые окна",
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
+    link: "/category/aluminum_window",
+    name: "Алюминиевые окна",
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
   },
   {
     id: Math.random().toString(),
     link: "/category/wooden_window",
 <<<<<<< HEAD
+<<<<<<< HEAD
     name: "Деревянные изделия",
+=======
+    name: "Деревянные окна",
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 =======
     name: "Деревянные окна",
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
@@ -156,6 +187,7 @@ const dropdownMenuLink = [
   {
     id: Math.random().toString(),
     link: "/category/frameless_glazing",
+<<<<<<< HEAD
 <<<<<<< HEAD
     name: "Безрамные изделия",
   },
@@ -168,11 +200,16 @@ const filtered = [
   "/category/plastic_window",
 ];
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
     name: "Безрамное остекление",
   },
 ];
 
 const filtered = ["/category/aluminum_window", "/category/wooden_window", "/category/frameless_glazing", "/category/plastic_window"];
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 
 // million-ignore
@@ -182,6 +219,7 @@ const NavbarLight = () => {
 
   const [navbarShow, setNavbarShow] = useState(false);
   const [dropdownMenu, setDropdownMenu] = useState(false);
+<<<<<<< HEAD
 <<<<<<< HEAD
   const [openModal, setOpenModal] = useState(false);
 
@@ -193,6 +231,8 @@ const NavbarLight = () => {
 
   window.addEventListener("resize", () => {
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 
   window.addEventListener('click', () => {
     const downUpIcon = document.querySelector('#downUpIcon');
@@ -201,6 +241,9 @@ const NavbarLight = () => {
   })
 
   window.addEventListener('resize', () => {
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
     if (window.innerWidth >= 1280) {
       setNavbarShow(false);
@@ -211,6 +254,7 @@ const NavbarLight = () => {
   const closeNavbarHandler = (link) => {
     setNavbarShow(false);
     navigate(link);
+<<<<<<< HEAD
 <<<<<<< HEAD
   };
 
@@ -402,6 +446,8 @@ const NavbarLight = () => {
                 </button>
               </div>
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
   }
 
   return (
@@ -499,12 +545,16 @@ const NavbarLight = () => {
               {/* <a href="#" className="text-[17px] lg:text-[20px]">
                 8 (812) 984-11-22
               </a> */}
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
             </div>
           </div>
         </div>
 
         {/* mobile view */}
+<<<<<<< HEAD
 <<<<<<< HEAD
         <nav
           className={`block xl:hidden border-gray-200 ${
@@ -765,6 +815,8 @@ const NavbarLight = () => {
       )}
     </>
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
         {navbarShow && (
           <div className={`animate-wiggle transition-all shadow-md rounded-md bg-white w-full absolute top-[0px] p-2 z-50 flex flex-col justify-center gap-16 items-center text-dark py-6`}>
             <>
@@ -844,6 +896,9 @@ const NavbarLight = () => {
         )}
       </div>
     </nav>
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
   );
 };

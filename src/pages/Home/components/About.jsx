@@ -6,6 +6,7 @@ import image4 from "../../../assets/home/4.svg";
 import image5 from "../../../assets/home/5.svg";
 import image6 from "../../../assets/home/6.svg";
 <<<<<<< HEAD
+<<<<<<< HEAD
 const data = [
   {
     row: [
@@ -62,6 +63,8 @@ const data = [
     ],
   },
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 import image7 from "../../../assets/home/7.svg";
 import image8 from "../../../assets/home/8.svg";
 const data = [
@@ -119,11 +122,15 @@ const data = [
             },
         ],
     },
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 ];
 
 // million-ignore
 function About() {
+<<<<<<< HEAD
 <<<<<<< HEAD
   return (
     <section
@@ -193,6 +200,8 @@ function About() {
 
 export default memo(About);
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
     return (
         <section className="text-white why-us bg-[#212121] px-[10px] md:px-[40px] lg:px-[80px] xl:px-[120px] relative pb-[80px] lg:pb-[120px] xl:pb-[152px]"
             style={{
@@ -241,5 +250,9 @@ export default memo(About);
     )
 }
 
+<<<<<<< HEAD
+export default memo(About);
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 export default memo(About);
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149

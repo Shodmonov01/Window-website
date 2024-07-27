@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React, { memo } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -37,6 +38,8 @@ function ContentModalGlassunits({ data, onClose }) {
 
 export default memo(ContentModalGlassunits);
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 import React, { memo } from 'react';
 import { useNavigate } from 'react-router-dom';
 
@@ -73,5 +76,9 @@ function ContentModalGlassunits({ data, onClose }) {
     )
 }
 
+<<<<<<< HEAD
+export default memo(ContentModalGlassunits);
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 export default memo(ContentModalGlassunits);
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149

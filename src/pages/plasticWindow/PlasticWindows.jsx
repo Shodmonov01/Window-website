@@ -1,6 +1,10 @@
 import { useCallback, useState } from "react";
 <<<<<<< HEAD
+<<<<<<< HEAD
 // import Slider from "../../components/Slider";
+=======
+import Slider from "../../components/Slider";
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 =======
 import Slider from "../../components/Slider";
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
@@ -8,6 +12,7 @@ import Structures from "../../components/Structures";
 import GlassUnits from "../../components/GlassUnits";
 import Color from "../../components/Color";
 import Consultation from "../../components/Consultation";
+<<<<<<< HEAD
 <<<<<<< HEAD
 import FreeConsultation from "../../components/FreeConsultation";
 import Modal from "../../components/Modal";
@@ -43,6 +48,8 @@ const PlasticWindows = () => {
     [open]
   );
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 import Info from "../../components/Info";
 import FreeConsultation from "../../components/FreeConsultation";
 import Modal from "../../components/Modal";
@@ -63,6 +70,9 @@ const PlasticWindows = () => {
   const openModalHandlerStruktures = useCallback(value => {
     setOpen({ open: true, data: value });
   }, [open]);
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 
   // close struktures modal
@@ -71,6 +81,7 @@ const PlasticWindows = () => {
   }, [open]);
 
   // open glassunits modal
+<<<<<<< HEAD
 <<<<<<< HEAD
   const openModalHandlerGlassUnits = useCallback(
     (value) => {
@@ -83,10 +94,16 @@ const PlasticWindows = () => {
     setOpenGlassUnits({ open: true, data: value });
   }, [openGlassUnits])
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
+  const openModalHandlerGlassUnits = useCallback(value => {
+    setOpenGlassUnits({ open: true, data: value });
+  }, [openGlassUnits])
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 
   // close glassunits modal
   const closeModalHandlerGlassUnits = useCallback(() => {
     setOpenGlassUnits({ open: false, data: {} });
+<<<<<<< HEAD
 <<<<<<< HEAD
   }, [openGlassUnits]);
 
@@ -114,6 +131,8 @@ const PlasticWindows = () => {
                   </span>
                 
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
   }, [openGlassUnits])
 
   return (
@@ -133,6 +152,9 @@ const PlasticWindows = () => {
                   data-aos-delay={1500 + (index + 1) * 150}
                 >{item}</span>
               ))} */}
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
             </span>
             <ul className="mt-3 text-[16px] lg:text-[18px] xl:text-[18px]">
@@ -174,8 +196,12 @@ const PlasticWindows = () => {
         <img
           src={banner}
 <<<<<<< HEAD
+<<<<<<< HEAD
           className="absolute -top-[175.5px] xl:top-0 right-0 h-[910px] cornerAnimation object-cover md:object-fill"
           alt=""
+=======
+          className="absolute -top-[175.5px] right-0 h-[910px] cornerAnimation object-cover md:object-fill" alt=""
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 =======
           className="absolute -top-[175.5px] right-0 h-[910px] cornerAnimation object-cover md:object-fill" alt=""
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
@@ -192,9 +218,12 @@ const PlasticWindows = () => {
       />
 
 <<<<<<< HEAD
+<<<<<<< HEAD
       {/* vid profil */}
       <Profil data={profile_data} />
 
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 =======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
       {/* glass units */}
@@ -208,6 +237,7 @@ const PlasticWindows = () => {
 
       {/* info */}
 <<<<<<< HEAD
+<<<<<<< HEAD
       <Info data={about_data} />
 
       {/* slide */}
@@ -216,6 +246,8 @@ const PlasticWindows = () => {
       {/* consultation */}
       <Consultation bg="true" />
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
       <Info
         data={about_data}
       />
@@ -225,6 +257,9 @@ const PlasticWindows = () => {
 
       {/* consultation */}
       <Consultation />
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 
       {/* modal structures */}
@@ -235,7 +270,13 @@ const PlasticWindows = () => {
           maxWidth="sm:max-w-5xl"
         >
 <<<<<<< HEAD
+<<<<<<< HEAD
           <Modal onClose={closeModalHandlerStruktures}>
+=======
+          <Modal
+            onClose={closeModalHandlerStruktures}
+          >
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 =======
           <Modal
             onClose={closeModalHandlerStruktures}
@@ -256,15 +297,21 @@ const PlasticWindows = () => {
           onClose={closeModalHandlerGlassUnits}
           open={openGlassUnits.open}
 <<<<<<< HEAD
+<<<<<<< HEAD
           maxWidth="sm:max-w-5xl "
         >
           <Modal onClose={closeModalHandlerGlassUnits}>
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
           maxWidth="sm:max-w-5xl"
         >
           <Modal
             onClose={closeModalHandlerGlassUnits}
           >
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
             <ContentModalGlassunits
               data={openGlassUnits.data}

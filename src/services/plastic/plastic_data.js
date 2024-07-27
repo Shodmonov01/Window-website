@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 import okno from "../../assets/metal/structures/main/okno.png";
 import dver from "../../assets/metal/structures/main/dver.png";
@@ -68,6 +69,8 @@ import zimniy_sad2 from "../../assets/metal/structures/zimniy_sad/zimniy_sad2.jp
 import zimniy_sad3 from "../../assets/metal/structures/zimniy_sad/zimniy_sad3.jpg";
 import zimniy_sad4 from "../../assets/metal/structures/zimniy_sad/zimniy_sad4.jpg";
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 import services0 from "../../assets/home/services0.png";
 import services1 from "../../assets/home/services1.png";
 import services2 from "../../assets/home/services2.png";
@@ -93,11 +96,15 @@ import lodji1 from "../../assets/structures/lodji/lodji1.png";
 import lodji2 from "../../assets/structures/lodji/lodji2.png";
 import lodji3 from "../../assets/structures/lodji/lodji3.jpg";
 import lodji4 from "../../assets/structures/lodji/lodji4.jpg";
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 
 export const plastic_data = [
     {
         id: Math.random().toString(),
+<<<<<<< HEAD
 <<<<<<< HEAD
         name: "Окна",
         imgSrc: okno,
@@ -118,6 +125,8 @@ export const plastic_data = [
             textCenter: "Двери, произведенные из ПВХ, на протяжении многих лет сохраняют свою изначальную форму, благодаря чему вы можете не опасаться усадки и искривления дверного полотна .",
             textBottom: "",
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
         name: "Окна и двери",
         imgSrc: services0,
         modal: {
@@ -125,12 +134,16 @@ export const plastic_data = [
             textTop: " - это современное решение для улучшения тепло- и звукоизоляции в доме. Они обладают высокой прочностью, долговечностью и устойчивостью к воздействию различных погодных условий. ",
             textCenter: "Также обладают отличными энергосберегающими свойствами, что помогает снизить расходы на отопление. ",
             textBottom: "Кроме того, они имеют разнообразные дизайнерские решения, которые позволяют подобрать подходящий вариант для любого интерьера.",
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
         },
     },
     {
         id: Math.random().toString(),
         name: "Балконы",
+<<<<<<< HEAD
 <<<<<<< HEAD
         imgSrc: balkon,
         modal: {
@@ -139,17 +152,23 @@ export const plastic_data = [
             textCenter: "Остекление балконов и лоджий на сегодняшний день самый простой, удобный и быстрый способ увеличить площадь квартиры .",
             // textBottom: "Остекление балконов и лоджий на сегодняшний день самый простой, удобный и быстрый способ увеличить площадь квартиры.",
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
         imgSrc: services1,
         modal: {
             textTitle: "Балконы",
             textTop: " - это простое и практичное решение для улучшения комфорта в вашей квартире. Пластиковые окна и рамы обеспечивают отличную звукоизоляцию и теплоизоляцию, что позволяет сохранять комфортную температуру в помещении и уменьшать шум с улицы",
             textCenter: "Они также просты в уходе и сохраняют свою эстетическую привлекательность на протяжении долгого времени",
             textBottom: "",
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
         },
     },
     {
         id: Math.random().toString(),
+<<<<<<< HEAD
 <<<<<<< HEAD
         name: "Балконные блоки",
         imgSrc: balkon_blok,
@@ -158,18 +177,24 @@ export const plastic_data = [
             textTop: "Пластиковые двери для балконов и лоджий – надежная защита от продуваний и хорошая тепло- и шумоизоляция. Вы навсегда забудете про сквозняки с балкона благодаря внешнему и внутреннему контуру уплотнения двери. А герметичный стеклопакет и плотное прилегание уплотнения по всему периметру двери обеспечит хорошую защиту от уличного шума",
             textCenter: "",
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
         name: "Входные двери",
         imgSrc: services2,
         modal: {
             textTitle: "Входные двери",
             textTop: " - являются популярными и практичными решениями, которое приносит множество преимуществ. Пластиковые окна обладают отличными изоляционными свойствами, что позволяет снизить энергопотребление и защитить помещение от холода и шума.",
             textCenter: "Они также не требуют сложного ухода и просты в использовании. Остекление входных дверей пластиком придает дому современный и эстетичный вид, а также улучшает его безопасность.",
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
             textBottom: "",
         },
     },
     {
         id: Math.random().toString(),
+<<<<<<< HEAD
 <<<<<<< HEAD
         name: "Лоджии",
         imgSrc: lodji,
@@ -257,6 +282,8 @@ export const plastic_data = [
             textBottom2: "",
             textBottom3: "",
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
         name: "Входны порталы",
         imgSrc: services4,
         modal: {
@@ -277,6 +304,9 @@ export const plastic_data = [
             textBottom: "2. Улучшает теплоизоляцию",
             textBottom2: "3. Устойчивость к погодным условиям",
             textBottom3: "4. Простота установки и обслуживания",
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
         },
     },
@@ -286,7 +316,11 @@ export const plastic_data_images = [
     {
         id: Math.random().toString(),
 <<<<<<< HEAD
+<<<<<<< HEAD
         name: 'Окна',
+=======
+        name: 'Окна и двери',
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 =======
         name: 'Окна и двери',
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
@@ -312,6 +346,7 @@ export const plastic_data_images = [
     {
         id: Math.random().toString(),
 <<<<<<< HEAD
+<<<<<<< HEAD
         name: 'Двери',
         images: [
             {
@@ -334,6 +369,8 @@ export const plastic_data_images = [
     },
     {
         id: Math.random().toString(),
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 =======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
         name: 'Балконы',
@@ -359,6 +396,7 @@ export const plastic_data_images = [
     {
         id: Math.random().toString(),
 <<<<<<< HEAD
+<<<<<<< HEAD
         name: 'Балконные блоки',
         images: [
             {
@@ -377,6 +415,8 @@ export const plastic_data_images = [
                 id: Math.random().toString(),
                 image: balkon_blok4
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
         name: 'Входные двери',
         images: [
             {
@@ -394,6 +434,9 @@ export const plastic_data_images = [
             {
                 id: Math.random().toString(),
                 image: v_dver4
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
             },
         ]
@@ -422,6 +465,7 @@ export const plastic_data_images = [
     },
     {
         id: Math.random().toString(),
+<<<<<<< HEAD
 <<<<<<< HEAD
         name: 'Фасады',
         images: [
@@ -551,6 +595,8 @@ export const plastic_data_images = [
                 id: Math.random().toString(),
                 image: zimniy_sad4
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
         name: 'Входны порталы',
         images: [
             {
@@ -568,6 +614,9 @@ export const plastic_data_images = [
             {
                 id: Math.random().toString(),
                 image: v_portal4
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
             },
         ]

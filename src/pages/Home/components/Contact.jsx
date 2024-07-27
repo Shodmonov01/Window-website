@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { memo, useEffect, useState } from "react";
 import StepsImg1 from "../../../assets/Steps-img1.svg";
 import StepsImg2 from "../../../assets/Steps-img3.svg";
@@ -22,6 +23,8 @@ function Contact() {
                         key={Math.random().toString()}
                         className=""
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 import { memo } from "react";
 import StepsImg1 from "../../../assets/Steps-img1.svg";
 import StepsImg2 from "../../../assets/Steps-img2.svg";
@@ -43,11 +46,15 @@ function Contact() {
                 {/* {"Оставьте заявку и вам перезвонит менеджер, который".split(" ").map((item, index) => (
                     <span
                         key={Math.random().toString()}
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
                         data-aos="fade-right"
                         data-aos-delay={1000 + (index + 1) * 150}
                     >{item}</span>
                 ))} */}
+<<<<<<< HEAD
 <<<<<<< HEAD
         <span
           // key={Math.random().toString()}
@@ -204,6 +211,8 @@ function Contact() {
 
 export default memo(Contact);
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
             </span>
             <div className="grid grid-cols-1 mt-20 lg:grid-cols-3 text-white text-center gap-4 ">
                 <div
@@ -251,5 +260,9 @@ export default memo(Contact);
     )
 }
 
+<<<<<<< HEAD
+export default memo(Contact);
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 export default memo(Contact);
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149

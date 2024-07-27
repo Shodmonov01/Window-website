@@ -1,5 +1,9 @@
 import { useCallback, useState } from "react";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import Slider from "../../components/Slider";
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 =======
 import Slider from "../../components/Slider";
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
@@ -8,7 +12,11 @@ import GlassUnits from "../../components/GlassUnits";
 import Color from "../../components/Color";
 import Consultation from "../../components/Consultation";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import Info from "./components/Info";
+=======
+import Info from "../../components/Info";
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 =======
 import Info from "../../components/Info";
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
@@ -16,6 +24,7 @@ import FreeConsultation from "../../components/FreeConsultation";
 import StructuresModal from "../../components/StructuresModal";
 import Modal from "../../components/Modal";
 import ContentModal from "./components/ContentModal";
+<<<<<<< HEAD
 <<<<<<< HEAD
 import {
   aluminium_data,
@@ -197,6 +206,8 @@ const AluminumWindows = () => {
     </div>
   );
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 import { aluminium_data, aluminium_data_images } from "../../services/aluminium/aluminuim_data";
 import { glassUnits_data } from "../../services/aluminium/glassUnits_data";
 import { about_data } from "../../services/aluminium/about";
@@ -355,6 +366,9 @@ const AluminumWindows = () => {
             )}
         </div>
     );
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 };
 

@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { memo } from "react";
 import AccordionComponent from './Accordion';
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 import { memo, useCallback, useState } from "react";
 import {
     Accordion,
@@ -23,11 +26,15 @@ function Icon({ id, open }) {
         </svg>
     );
 }
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 
 // million-ignore
 function Info(props) {
     const { data } = props;
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     return (
@@ -52,6 +59,8 @@ function Info(props) {
             </span>
             {/* <div className="flex flex-col gap-[10px]">
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
     const [open, setOpen] = useState(0);
 
     const handleOpen = useCallback(value => {
@@ -73,6 +82,9 @@ function Info(props) {
                 ))}
             </h1>
             <div className="flex flex-col gap-[10px]">
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
                 <span
                     data-aos="fade-right"
@@ -95,6 +107,7 @@ function Info(props) {
                     </span>
                 )}
 <<<<<<< HEAD
+<<<<<<< HEAD
             </div> */}
 
             <div className="mt-[40px] lg:mt-[55px] w-full lg:w-[70%]">
@@ -102,6 +115,8 @@ function Info(props) {
                     data={data}
                 />
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
             </div>
 
             <div className="mt-[40px] lg:mt-[55px] w-full md:w-[70%] lg:w-[60%]">
@@ -121,6 +136,9 @@ function Info(props) {
                         </AccordionBody>
                     </Accordion>
                 ))}
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
             </div>
         </section>

@@ -1,6 +1,7 @@
 import { memo } from "react";
 import { Link } from "react-router-dom";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import metal from "../../../assets/home/alyumin.png";
 import derevo from "../../../assets/home/derevo.png";
 import bezramniye from "../../../assets/home/bezramniye.png";
@@ -31,6 +32,8 @@ const data = [
     text: "Деревянные изделия",
   },
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 import cardImg_1 from "../../../assets/image 1 (5).png";
 import cardImg_2 from "../../../assets/image 1 (3).png";
 import cardImg_3 from "../../../assets/image 1 (4).png";
@@ -60,11 +63,15 @@ const data = [
         imgSrc: cardImg_4,
         text: "Безрамное холодное остекление"
     },
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 ];
 
 // million-ignore
 function MenuLink() {
+<<<<<<< HEAD
 <<<<<<< HEAD
   return (
     <div
@@ -96,6 +103,8 @@ function MenuLink() {
 
 export default memo(MenuLink);
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 
     return (
         <div className="grid uppercase py-32 grid-cols-2 gap-4 md:px-20 lg:px-32" style={{ fontStyle: "normal" }}>
@@ -118,5 +127,9 @@ export default memo(MenuLink);
     )
 }
 
+<<<<<<< HEAD
+export default memo(MenuLink);
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 export default memo(MenuLink);
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149

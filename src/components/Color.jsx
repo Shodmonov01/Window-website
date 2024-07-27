@@ -2,10 +2,15 @@ import { memo, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import sliderNav_l from "../assets/slider-arrow-l_white.svg";
 import sliderNav_r from "../assets/slider-arrow-r_white.svg";
 import sliderNav_ll from "../assets/slider-arrow-l.svg";
 import sliderNav_rr from "../assets/slider-arrow-r.svg";
+=======
+import sliderNav_l from "../assets/slider-arrow-l.svg";
+import sliderNav_r from "../assets/slider-arrow-r.svg";
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 =======
 import sliderNav_l from "../assets/slider-arrow-l.svg";
 import sliderNav_r from "../assets/slider-arrow-r.svg";
@@ -24,6 +29,7 @@ import gornaya_sosna from "../assets/home/laminat/gornaya_sosna.png";
 import oregon from "../assets/home/laminat/oregon.png";
 
 const data3 = [
+<<<<<<< HEAD
 <<<<<<< HEAD
   {
     id: Math.random().toString(),
@@ -356,6 +362,8 @@ function Color(props) {
 
 export default memo(Color);
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
     {
         id: Math.random().toString(),
         name: "Дуб",
@@ -651,5 +659,9 @@ function Color() {
     )
 }
 
+<<<<<<< HEAD
+export default memo(Color);
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 export default memo(Color);
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149

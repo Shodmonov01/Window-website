@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { memo } from "react";
 
 // million-ignore
@@ -33,6 +34,8 @@ function Modal({ onClose, children }) {
     </div>
   );
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 import { memo } from 'react';
 
 // million-ignore
@@ -53,6 +56,9 @@ function Modal({ onClose, children }) {
             {children}
         </div>
     )
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 }
 

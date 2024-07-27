@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React, { memo } from "react";
 import { useNavigate } from "react-router-dom";
 import CarouselGalleryModal from "../../../components/CarouselGalleryModal";
@@ -41,6 +42,8 @@ function ContentModal({ data, images, onClose }) {
 
 export default memo(ContentModal);
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 import React, { memo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import CarouselGalleryModal from '../../../components/CarouselGalleryModal';
@@ -84,5 +87,9 @@ function ContentModal({ data, images, onClose }) {
     )
 }
 
+<<<<<<< HEAD
+export default memo(ContentModal);
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 export default memo(ContentModal);
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149

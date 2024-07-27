@@ -4,6 +4,7 @@ import windowType3 from "../../assets/window-type-3.png";
 import windowType4 from "../../assets/window-type-4.png";
 import windowType5 from "../../assets/window-type-5.png";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import windowType6 from "../../assets/window-type-6.png";
 import windowType7 from "../../assets/window-type-7.png";
 import windowType8 from "../../assets/window-type-8.png";
@@ -135,6 +136,8 @@ export const glassUnits_data = [
   },
 ];
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 
 export const glassUnits_data = [
     {
@@ -192,5 +195,9 @@ export const glassUnits_data = [
             textBottom: "",
         },
     },
+<<<<<<< HEAD
+];
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 ];
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149

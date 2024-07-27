@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { memo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { PhoneInput } from "react-international-phone";
@@ -35,6 +36,8 @@ function AboutUs() {
           <span className="text-[23px] font-Montserrat mt-[28px] lg:mt-20 mb-0 lg:text-[30px] xl:text-[45px] font-bold uppercase text-center md:text-left relative z-50 flex items-center gap-3 flex-wrap justify-center lg:justify-start">
             {/* {"ОСтавьте заявку на остекление или позвоните нам".split(" ").map((item, index) => (
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 import { memo, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import PhoneInput from 'react-phone-number-input';
@@ -75,6 +78,9 @@ function AboutUs() {
                     data-aos-delay={500}
                 >ОСтавьте заявку на остекление или позвоните нам</span>
                         {/* {"ОСтавьте заявку на остекление или позвоните нам".split(" ").map((item, index) => (
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
                             <span
                                 key={Math.random().toString()}
@@ -82,6 +88,7 @@ function AboutUs() {
                                 data-aos-delay={500 + (index + 1) * 150}
                             >{item}</span>
                         ))} */}
+<<<<<<< HEAD
 <<<<<<< HEAD
             <span
               key={Math.random().toString()}
@@ -211,6 +218,8 @@ function AboutUs() {
 
 export default memo(AboutUs);
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
                         <img src={rectangle} alt="" className="absolute -top-[140px] xl:-top-[200px] -left-[20px] xl:-left-[80px] 2xl:-left-[120px]" />
                     </span>
                     <ul
@@ -321,5 +330,9 @@ export default memo(AboutUs);
     )
 }
 
+<<<<<<< HEAD
+export default memo(AboutUs);
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 export default memo(AboutUs);
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149

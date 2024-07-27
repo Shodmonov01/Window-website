@@ -1,5 +1,6 @@
 import okno from "../../assets/aluminium/structures/main/okno.png";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import dver from "../../assets/aluminium/structures/main/dver.png";
 import balkon_lodji from "../../assets/aluminium/structures/main/balkon_lodji.png";
 import vitraj from "../../assets/aluminium/structures/main/vitraj.png";
@@ -369,6 +370,8 @@ export const aluminium_data_images = [
     ],
   },
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 import sek_vorota from "../../assets/aluminium/structures/main/sek_vorota.png";
 import vxod_dver from "../../assets/aluminium/structures/main/vxod_dver.png";
 import balkon from "../../assets/aluminium/structures/main/balkon.png";
@@ -646,5 +649,8 @@ export const aluminium_data_images = [
             },
         ]
     },
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 ];

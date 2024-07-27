@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Link } from "react-router-dom";
 
 // new images
@@ -262,6 +263,8 @@ const Services = () => {
             </Link>
           ))}
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 import { useNavigate } from "react-router-dom";
 import cardDatailimg from "../../assets/card-detail.png";
 import cardImg from "../../assets/Rectangle 109.png";
@@ -461,6 +464,9 @@ const Services = () => {
             </div>
           </div>
         ))}
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
       </div>
     </div>

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import okno from "../../assets/wooden/structures/main/okno.png";
 import balkon_dver from "../../assets/wooden/structures/main/balkon_dver.png";
 import balkon_lodji from "../../assets/wooden/structures/main/balkon_lodji.png";
@@ -276,6 +277,8 @@ export const wooden_data_images = [
     ],
   },
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 import main1 from "../../assets/wooden/structures/main/main1.png";
 import main2 from "../../assets/wooden/structures/main/main2.png";
 import main3 from "../../assets/wooden/structures/main/main3.png";
@@ -396,5 +399,8 @@ export const wooden_data_images = [
             },
         ]
     },
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 ];

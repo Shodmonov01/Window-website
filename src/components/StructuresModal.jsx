@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React, { Fragment, memo, useEffect, useRef } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 
@@ -54,6 +55,8 @@ function StructuresModal(props) {
 
 export default memo(StructuresModal);
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 import React, { Fragment, memo, useRef } from 'react';
 import { Dialog, Transition } from '@headlessui/react';
 
@@ -100,5 +103,9 @@ function StructuresModal(props) {
     )
 }
 
+<<<<<<< HEAD
+export default memo(StructuresModal);
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 export default memo(StructuresModal);
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149

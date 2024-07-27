@@ -1,14 +1,18 @@
 import { useCallback, useState } from "react";
 import Slider from "../../components/Slider";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Helmet } from "react-helmet";
 
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 =======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 import Structures from "../../components/Structures";
 import GlassUnits from "../../components/GlassUnits";
 import Color from "../../components/Color";
 import Consultation from "../../components/Consultation";
+<<<<<<< HEAD
 <<<<<<< HEAD
 import FreeConsultation from "../../components/FreeConsultation";
 import {
@@ -20,11 +24,17 @@ import Info from "../../components/Info";
 import FreeConsultation from "../../components/FreeConsultation";
 import { wooden_data, wooden_data_images } from "../../services/wooden/wooden_data";
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
+import Info from "../../components/Info";
+import FreeConsultation from "../../components/FreeConsultation";
+import { wooden_data, wooden_data_images } from "../../services/wooden/wooden_data";
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 import { glassUnits_data } from "../../services/wooden/glassUnits_data";
 import { about_data } from "../../services/wooden/about";
 import StructuresModal from "../../components/StructuresModal";
 import Modal from "../../components/Modal";
 import ContentModal from "./components/ContentModal";
+<<<<<<< HEAD
 <<<<<<< HEAD
 import Profil from "./components/Profil";
 import Info from "./components/Info";
@@ -207,6 +217,8 @@ const WoodenWindows = () => {
     </div>
   );
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 import banner from '../../assets/Plastic-page-hero.png';
 import heroList from "../../assets/heroList.svg";
 // import ContentModalGlassunits from "./components/ContentModalGlassunits";
@@ -363,6 +375,9 @@ const WoodenWindows = () => {
             )}
         </div>
     );
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 };
 

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { memo, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { PhoneInput } from "react-international-phone";
@@ -108,6 +109,8 @@ function FreeConsultation() {
 
 export default memo(FreeConsultation);
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 import { memo, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import konGif from '../assets/home/kon.gif';
@@ -187,5 +190,9 @@ function FreeConsultation() {
     )
 }
 
+<<<<<<< HEAD
+export default memo(FreeConsultation);
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 export default memo(FreeConsultation);
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149

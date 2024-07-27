@@ -4,7 +4,10 @@ import montage3 from '../../assets/home/montage3.png';
 import montage4 from '../../assets/home/montage4.png';
 import banner from '../../assets/home/banner.png';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import banner2 from '../../assets/banner2.png';
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 =======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 import Form from '../../components/Form';
@@ -34,8 +37,13 @@ function Montage() {
         <div className="my-[50px] mb-0">
             {/* row 1 */}
 <<<<<<< HEAD
+<<<<<<< HEAD
             <div className="bg-box px-[20px] lg:px-[35px] xl:px-[50px] flex flex-col gap-[20px] lg:gap-[26px] py-[30px] lg:py-[50px] text-white/70 text-center md:text-left">
                 <span className="bg_linear_gradient_txt text-[30px] lg:text-[40px] xl:text-[45px] font-bold uppercase font-Montserrat text-white">
+=======
+            <div className="bg-[#212121] px-[20px] lg:px-[35px] xl:px-[50px] flex flex-col gap-[20px] lg:gap-[26px] py-[70px] lg:py-[92px] text-white/70 text-center md:text-left">
+                <span className="text-[30px] lg:text-[40px] xl:text-[45px] font-bold uppercase font-Montserrat text-white">
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 =======
             <div className="bg-[#212121] px-[20px] lg:px-[35px] xl:px-[50px] flex flex-col gap-[20px] lg:gap-[26px] py-[70px] lg:py-[92px] text-white/70 text-center md:text-left">
                 <span className="text-[30px] lg:text-[40px] xl:text-[45px] font-bold uppercase font-Montserrat text-white">
@@ -56,6 +64,7 @@ function Montage() {
             {/* row 2 */}
             <div className='px-[20px] lg:px-[35px] xl:px-[50px] mt-[70px] md:mt-[95px]'>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <div className='flex items-center lg:items-start flex-col gap-2'>
                     <span className="text-[30px] lg:text-[40px] xl:text-[45px] font-bold uppercase font-Montserrat text-center lg:text-left">
                         Подготовка оконного проема
@@ -65,6 +74,8 @@ function Montage() {
                     </span>
                 </div>
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
                 <span className="text-[30px] lg:text-[40px] xl:text-[45px] font-bold uppercase font-Montserrat flex flex-col">
                     Подготовка оконного
                     <span>проема</span>
@@ -72,6 +83,9 @@ function Montage() {
                 <span className="capitalize text-[15px] lg:text-[17px] xl:text-[18px]">
                     ЭТОТ ПРОЦЕСС СОСТОИТ ИЗ НЕСКОЛЬКИХ ЭТАПО
                 </span>
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 
                 <div className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-[15px] md:gap-[20px] mt-[40px] lg:mt-[59px]'>
@@ -91,7 +105,11 @@ function Montage() {
                     ))}
                 </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <div className='flex flex-col gap-[20px] w-full mt-[45px] lg:mt-[57px] text-[16px] lg:text-[20px] text-black/70 font-medium'>
+=======
+                <div className='flex flex-col gap-[20px] w-full lg:w-[70%] mt-[45px] lg:mt-[57px] text-[16px] lg:text-[20px] text-black/70 font-medium'>
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 =======
                 <div className='flex flex-col gap-[20px] w-full lg:w-[70%] mt-[45px] lg:mt-[57px] text-[16px] lg:text-[20px] text-black/70 font-medium'>
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
@@ -112,14 +130,20 @@ function Montage() {
 
             {/* row 3 */}
 <<<<<<< HEAD
+<<<<<<< HEAD
             <div className="bg-box px-[20px] lg:px-[35px] xl:px-[50px] flex flex-col gap-[20px] lg:gap-[26px] py-[50px] lg:py-[60px] text-white/70 text-center md:text-left mt-[50px] lg:mt-[80px]">
                 <span className="text-[30px] lg:text-[40px] xl:text-[45px] font-bold uppercase font-Montserrat bg_linear_gradient_txt">
                     <span>Установка и выравнивание окна в проеме</span>
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
             <div className="bg-[#212121] px-[20px] lg:px-[35px] xl:px-[50px] flex flex-col gap-[20px] lg:gap-[26px] py-[70px] lg:py-[92px] text-white/70 text-center md:text-left mt-[80px] lg:mt-[184px]">
                 <span className="text-[30px] lg:text-[40px] xl:text-[45px] font-bold uppercase font-Montserrat text-white flex flex-col">
                     <span>Установка и выравнивание</span>
                     <span>окна в проеме</span>
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
                 </span>
                 <p>
@@ -140,17 +164,23 @@ function Montage() {
 
             {/* row 4 */}
 <<<<<<< HEAD
+<<<<<<< HEAD
             <div className='px-[20px] lg:px-[35px] xl:px-[50px] mt-[50px] lg:mt-[100px] text-center md:text-left'>
                 <span className="text-[30px] lg:text-[40px] xl:text-[45px] font-bold uppercase font-Montserrat">
                     Наклеивание ПСУЛ
                 </span>
                 <div className='flex flex-col gap-[20px] w-full mt-[20px] lg:mt-[30px] text-[16px] lg:text-[20px] text-black/70 font-medium '>
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
             <div className='px-[20px] lg:px-[35px] xl:px-[50px] mt-[100px] lg:mt-[150px] xl:mt-[200px] text-center md:text-left'>
                 <span className="text-[30px] lg:text-[40px] xl:text-[45px] font-bold uppercase font-Montserrat">
                     Наклеивание ПСУЛ
                 </span>
                 <div className='flex flex-col gap-[20px] w-full lg:w-[70%] mt-[36px] lg:mt-[57px] text-[16px] lg:text-[20px] text-black/70 font-medium '>
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
                     <span>
                         Начинается формирование шва еще до начала установки, если используется лента ПСУЛ. Она наклеивается по периметру рамы или проема при помощи самоклеящегося состава, нанесенного на поверхность скрученной в ролик ленты.
@@ -170,8 +200,13 @@ function Montage() {
 
             {/* row 5 */}
 <<<<<<< HEAD
+<<<<<<< HEAD
             <div className="bg-[#212121] px-[20px] lg:px-[35px] xl:px-[50px] flex flex-col gap-[20px] lg:gap-[26px] py-[40px] lg:py-[76px] text-white/70 text-center md:text-left mt-[70px] lg:mt-[100px]">
                 <span className="text-[30px] lg:text-[40px] xl:text-[45px] font-bold uppercase font-Montserrat bg_linear_gradient_txt">
+=======
+            <div className="bg-[#212121] px-[20px] lg:px-[35px] xl:px-[50px] flex flex-col gap-[20px] lg:gap-[26px] py-[40px] lg:py-[76px] text-white/70 text-center md:text-left mt-[100px] lg:mt-[200px] xl:mt-[268px]">
+                <span className="text-[30px] lg:text-[40px] xl:text-[45px] font-bold uppercase font-Montserrat text-white">
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 =======
             <div className="bg-[#212121] px-[20px] lg:px-[35px] xl:px-[50px] flex flex-col gap-[20px] lg:gap-[26px] py-[40px] lg:py-[76px] text-white/70 text-center md:text-left mt-[100px] lg:mt-[200px] xl:mt-[268px]">
                 <span className="text-[30px] lg:text-[40px] xl:text-[45px] font-bold uppercase font-Montserrat text-white">
@@ -186,7 +221,11 @@ function Montage() {
                 </p>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <img src={banner2} alt="" className='my-[20px]' />
+=======
+                <img src={banner} alt="" className='my-[20px]' />
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 =======
                 <img src={banner} alt="" className='my-[20px]' />
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149

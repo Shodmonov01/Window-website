@@ -11,6 +11,11 @@ node_modules
 dist
 dist-ssr
 *.local
+<<<<<<< HEAD
+=======
+
+# Editor directories and files
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 .vscode/*
 !.vscode/extensions.json
 .idea
@@ -20,5 +25,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+<<<<<<< HEAD
 dist.zip
 dist.rar
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149

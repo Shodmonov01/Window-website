@@ -2,21 +2,28 @@ import { memo, useCallback, useState } from "react";
 import { Link } from "react-router-dom";
 import {
 <<<<<<< HEAD
+<<<<<<< HEAD
   Accordion,
   AccordionHeader,
   AccordionBody,
 } from "@material-tailwind/react";
 import Title from "./Title";
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
     Accordion,
     AccordionHeader,
     AccordionBody,
 } from "@material-tailwind/react";
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 import d3Icons_1 from "../../../assets/3dicons (1).png";
 import d3Icons_2 from "../../../assets/3dicons (2).png";
 import d3Icons_3 from "../../../assets/3dicons (3).png";
 import d3Icons_4 from "../../../assets/3dicons (4).png";
+<<<<<<< HEAD
 <<<<<<< HEAD
 const data = [
   {
@@ -79,6 +86,8 @@ function Icon({ id, open }) {
     </svg>
   );
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 import InstallationProcess2 from "../../../assets/process-img-2.png";
 import Title from "./Title";
 const data = [
@@ -122,11 +131,15 @@ function Icon({ id, open }) {
             <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
         </svg>
     );
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 }
 
 // million-ignore
 function Service() {
+<<<<<<< HEAD
 <<<<<<< HEAD
   const [open, setOpen] = useState(0);
 
@@ -354,6 +367,8 @@ function Service() {
 
 export default memo(Service);
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
     const [open, setOpen] = useState(0);
 
     const handleOpen = useCallback(value => {
@@ -574,5 +589,9 @@ export default memo(Service);
     )
 }
 
+<<<<<<< HEAD
+export default memo(Service);
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 export default memo(Service);
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149

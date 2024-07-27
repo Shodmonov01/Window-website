@@ -4,6 +4,7 @@ import Structures from "../../components/Structures";
 import Color from "../../components/Color";
 import Consultation from "../../components/Consultation";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import FreeConsultation from "../../components/FreeConsultation";
 import {
   framelessGlazing_data,
@@ -14,10 +15,16 @@ import Info from "../../components/Info";
 import FreeConsultation from "../../components/FreeConsultation";
 import { framelessGlazing_data, framelessGlazing_data_images } from "../../services/framelessGlazing/framelessGlazing_data";
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
+import Info from "../../components/Info";
+import FreeConsultation from "../../components/FreeConsultation";
+import { framelessGlazing_data, framelessGlazing_data_images } from "../../services/framelessGlazing/framelessGlazing_data";
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 import StructuresModal from "../../components/StructuresModal";
 import { about_data } from "../../services/framelessGlazing/about";
 import Modal from "../../components/Modal";
 import ContentModal from "./components/ContentModal";
+<<<<<<< HEAD
 <<<<<<< HEAD
 import Info from "./components/Info";
 import heroList from "../../assets/heroList.svg";
@@ -148,6 +155,8 @@ const FramelessGlazing = () => {
     </div>
   );
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 import heroList from "../../assets/heroList.svg";
 import banner from '../../assets/Plastic-page-hero.png';
 
@@ -266,6 +275,9 @@ const FramelessGlazing = () => {
             )}
         </div>
     );
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 };
 

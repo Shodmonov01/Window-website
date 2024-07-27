@@ -2,6 +2,7 @@
 import "swiper/css";
 import "swiper/css/navigation";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import Layout from "../../components/Layout";
 import Montaj from "./components/Montaj";
 import SliderDark from "../../components/SliderDark";
@@ -67,6 +68,8 @@ const Payment = () => {
 
         </div>
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 import Slider from "../../components/Slider";
 import Form from "../../components/Form";
 
@@ -155,6 +158,9 @@ const Payment = () => {
 
         {/* form */}
         <Form />
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
       </div>
     </div>

@@ -6,6 +6,7 @@ import AOS from "aos";
 const Home = lazy(() => import("./pages/Home/Home"));
 const WoodenWindow = lazy(() => import("./pages/woodenWindow/WoodenWindow"));
 <<<<<<< HEAD
+<<<<<<< HEAD
 const AluminumWindows = lazy(() =>
   import("./pages/aluminumWindow/AluminumWindow")
 );
@@ -16,10 +17,15 @@ const FramelessGlazing = lazy(() =>
 const AluminumWindows = lazy(() => import("./pages/aluminumWindow/AluminumWindow"));
 const FramelessGlazing = lazy(() => import("./pages/FramelessGlazing/FramelessGlazing"));
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
+const AluminumWindows = lazy(() => import("./pages/aluminumWindow/AluminumWindow"));
+const FramelessGlazing = lazy(() => import("./pages/FramelessGlazing/FramelessGlazing"));
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 const Montage = lazy(() => import("./pages/Montage/Montage"));
 const ScrollToTop = lazy(() => import("./components/ScrollToTop"));
 const AboutUs = lazy(() => import("./pages/AboutUs/AboutUs"));
 const Contact = lazy(() => import("./pages/Contacts/Contact"));
+<<<<<<< HEAD
 <<<<<<< HEAD
 const PlasticWindows = lazy(() =>
   import("./pages/plasticWindow/PlasticWindows")
@@ -47,15 +53,21 @@ const Delivery = lazy(() => import("./pages/delivery/Delivery"));
 const Guarantee = lazy(() => import("./pages/guarantee/Guarantee"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 const PlasticWindows = lazy(() => import("./pages/plasticWindow/PlasticWindows"));
 const Services = lazy(() => import("./pages/Services/Services"));
 const ServicesDetail = lazy(() => import("./pages/Services/ServicesDetail"));
 const Payment = lazy(() => import("./pages/Payment/Payment"));
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 const Footer = lazy(() => import("./components/Footer"));
 const NavbarLight = lazy(() => import("./components/NavbarLight"));
 import Loader from "./components/Loader";
 import ContactInfo from "./components/ContactInfo";
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 // react-international-phone
@@ -72,6 +84,8 @@ import "swiper/css/thumbs";
 // toastify
 import "react-toastify/dist/ReactToastify.css";
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 // import ScrollTop from "./components/ScrollTop";
 
 // react phone number input
@@ -86,12 +100,19 @@ import 'swiper/css/thumbs';
 
 // toastify
 import 'react-toastify/dist/ReactToastify.css';
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 
 import "./App.css";
 
 export default function App() {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 =======
 
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
@@ -100,17 +121,23 @@ export default function App() {
   }, []);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
   return (
     <div className="app max-w-[1924px] m-auto bg-bg_color text-dark overflow-x-hidden font">
       <Suspense fallback={<Loader />}>
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
   return (
     <div className="app max-w-[1924px] m-auto bg-bg_color text-dark overflow-x-hidden font">
       <Suspense fallback={
         <Loader />
       }>
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
         <NavbarLight />
         <ScrollToTop />
@@ -118,6 +145,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/category/plastic_window" element={<PlasticWindows />} />
           <Route path="/category/wooden_window" element={<WoodenWindow />} />
+<<<<<<< HEAD
 <<<<<<< HEAD
           <Route
             path="/category/aluminum_window"
@@ -142,15 +170,21 @@ export default function App() {
           <Route path="/services/blinds-pleated" element={<Blinds />} />
           <Route path="/services/mosquito-net" element={<Mesh />} />
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
           <Route path="/category/aluminum_window" element={<AluminumWindows />} />
           <Route path="/category/frameless_glazing" element={<FramelessGlazing />} />
           <Route path="/services" element={<Services />} />
           <Route path="/services-detail/:id/:title" element={<ServicesDetail />} />
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
           <Route path="/contact" element={<Contact />} />
           <Route path="/payment" element={<Payment />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/montage" element={<Montage />} />
+<<<<<<< HEAD
 <<<<<<< HEAD
           <Route path="/pay-for-the-order" element={<PayOrder />} />
           <Route path="/news" element={<News />} />
@@ -164,10 +198,15 @@ export default function App() {
           draggablePercent={60}
           style={{ fontSize: "12px", zIndex: "99999" }}
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
         </Routes>
         <ToastContainer
           draggablePercent={60}
           style={{ fontSize: "12px" }}
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
         />
         <ContactInfo />

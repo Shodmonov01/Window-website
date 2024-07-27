@@ -1,5 +1,6 @@
 import { useCallback, useState } from "react";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Link, useLocation } from "react-router-dom";
 import phoneIcon from "../assets/phone icon.svg";
 import LocIcon from "../assets/locatin icon.svg";
@@ -17,6 +18,8 @@ import youtube_play from "../assets/navbar/youtube_gold_center.svg";
 import vk from "../assets/navbar/vk_gold.svg";
 
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 import { Link } from "react-router-dom";
 import phoneIcon from "../assets/phone icon.svg";
 import LocIcon from "../assets/locatin icon.svg";
@@ -25,11 +28,15 @@ import Logo from "../assets/Logo.png";
 import vk from "../assets/vk-wh.svg";
 import poligon from '../assets/Polygon 1.svg';
 import footerGif from "../assets/FooterGif.gif";
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 const data = [
   {
     id: Math.random().toString(),
     link: "/",
+<<<<<<< HEAD
 <<<<<<< HEAD
     name: "Главная",
   },
@@ -72,13 +79,19 @@ const data2 = [
 =======
     name: "Главная"
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
+    name: "Главная"
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
   },
   {
     id: Math.random().toString(),
     link: "/contact",
 <<<<<<< HEAD
+<<<<<<< HEAD
     name: "Контакты",
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
     name: "Контакты"
   },
   {
@@ -95,6 +108,9 @@ const data2 = [
     id: Math.random().toString(),
     link: "/services",
     name: "Услуги"
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
   },
 ];
@@ -102,9 +118,12 @@ const menuData = [
   {
     id: Math.random().toString(),
 <<<<<<< HEAD
+<<<<<<< HEAD
     link: "/category/plastic_window",
     name: "Металлопластиковые изделия",
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
     link: "/category/wooden_window",
     name: "Деревянные окна"
   },
@@ -112,11 +131,15 @@ const menuData = [
     id: Math.random().toString(),
     link: "/category/plastic_window",
     name: " Пластиковые окна"
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
   },
   {
     id: Math.random().toString(),
     link: "/category/aluminum_window",
+<<<<<<< HEAD
 <<<<<<< HEAD
     name: "Алюминиевые изделия",
   },
@@ -127,10 +150,14 @@ const menuData = [
 =======
     name: "Алюминивые окна"
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
+    name: "Алюминивые окна"
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
   },
   {
     id: Math.random().toString(),
     link: "/category/frameless_glazing",
+<<<<<<< HEAD
 <<<<<<< HEAD
     name: "Безрамные изделия",
   },
@@ -180,6 +207,8 @@ const Footer = () => {
   const [openMenuDesktop, setOpenMenuDesktop] = useState(false);
   const [openVidDesktop, setOpenVidDesktop] = useState(false);
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
     name: "Безрамное холодное остекление"
   },
 ];
@@ -187,6 +216,9 @@ const Footer = () => {
 const Footer = () => {
   const [openMenu, setOpenMenu] = useState(false);
   const [openView, setOpenView] = useState(false);
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 
   // open accordion
@@ -198,6 +230,7 @@ const Footer = () => {
     setOpenView(!openView);
   }, [openView]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   const scrollToTop = () => {
     window.scrollTo({
@@ -212,11 +245,16 @@ const Footer = () => {
   return (
     <footer className="bg-[#212121] text-white overflow-hidden relative w-full mt-[180px] px-4">
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
+  return (
+    <footer className="bg-[#212121] text-white overflow-hidden relative w-full mt-[180px] px-4">
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
       <img
         src={footerGif}
         alt=""
         className="absolute left-[-180px] hidden lg:block"
       />
+<<<<<<< HEAD
 <<<<<<< HEAD
       <div className="px-0 md:px-8 lg:px-[120px] text-center lg:text-left py-10 relative">
         <div
@@ -245,6 +283,8 @@ const Footer = () => {
                 квартир и частных домов.
               </p>
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
       <div className="px-0 md:px-5 lg:px-32 text-center lg:text-left py-10 ">
         <div className="grid grid-cols-1 gap-4 sm:gap-12 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 items-start">
           {/* col 1 */}
@@ -259,11 +299,15 @@ const Footer = () => {
             <p className="text-[18px] sm:text-[19px] md:text-[20px] lg:text-[21px] my-3">Мы в социальных сетях:</p>
             <div className="flex items-center justify-center sm:justify-start">
               <img src={vk} alt="" className="w-[150px]" />
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
             </div>
           </div>
 
           {/* col 2 */}
+<<<<<<< HEAD
 <<<<<<< HEAD
 
           <div className="flex flex-col  gap-[11px]">
@@ -299,6 +343,8 @@ const Footer = () => {
               </a>
             </div>
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
           <div className="flex flex-col items-center justify-start bg-[#3F3F3F] sm:bg-transparent gap-[11px] pt-[8px] sm:pt-0">
             <div
               className="flex items-center w-full justify-center sm:justify-start font-medium text-[18px] md:text-[20px] lg:text-[23px] cursor-pointer sm:cursor-default"
@@ -337,12 +383,16 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
           </div>
 
           {/* col 3 */}
           <div className="flex flex-col items-center justify-start bg-[#3F3F3F] sm:bg-transparent gap-[11px] pt-[8px] sm:pt-0">
             <div
+<<<<<<< HEAD
 <<<<<<< HEAD
               className="flex items-center lg:pl-[25px] w-full justify-center sm:justify-start font-medium text-[18px] lg:text-[20px] cursor-pointer sm:cursor-default"
               onClick={openAccordionViewHandler}
@@ -611,6 +661,8 @@ const Footer = () => {
       </div>
       <img src={footerGif} alt="" className="absolute top-0 right-[-180px]" />
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
               className="flex items-center w-full justify-center sm:justify-start font-medium text-[18px] md:text-[20px] lg:text-[23px] cursor-pointer sm:cursor-default"
               onClick={openAccordionViewHandler}
             >
@@ -702,6 +754,9 @@ const Footer = () => {
         alt=""
         className="absolute top-0 right-[-180px]"
       />
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
     </footer>
   );

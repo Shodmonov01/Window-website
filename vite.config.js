@@ -5,6 +5,7 @@ import { defineConfig } from "vite";
 export default defineConfig({
   plugins: [million.vite({ auto: true }), react()],
 <<<<<<< HEAD
+<<<<<<< HEAD
 
   // first solution
   build: {
@@ -18,6 +19,8 @@ export default defineConfig({
       }
     }
   }
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 =======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 });

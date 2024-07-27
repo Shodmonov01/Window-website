@@ -4,6 +4,7 @@ import { Navigation, FreeMode } from "swiper/modules";
 import sliderNav_l from "../assets/slider-arrow-l.svg";
 import sliderNav_r from "../assets/slider-arrow-r.svg";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import Layout from "./Layout";
 
 // million-ignore
@@ -115,6 +116,8 @@ function Structures(props) {
 
 export default memo(Structures);
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 
 // million-ignore
 function Structures(props) {
@@ -210,5 +213,9 @@ function Structures(props) {
     )
 }
 
+<<<<<<< HEAD
+export default memo(Structures);
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 export default memo(Structures);
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149

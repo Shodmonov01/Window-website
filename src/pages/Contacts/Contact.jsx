@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { useEffect } from "react";
 import gif from "../../assets/home/kon.gif";
 import Layout from "../../components/Layout";
@@ -185,6 +186,8 @@ const Contact = () => {
         <Portal title="ОТЗЫВЫ НА СТОРОННИХ ПОРТАЛАХ" />
       </Layout>
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 import { useState } from "react";
 import emailjs from '@emailjs/browser';
 import PhoneInput from 'react-phone-number-input';
@@ -339,6 +342,9 @@ const Contact = () => {
 
       {/* form */}
       <Form />
+<<<<<<< HEAD
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
     </div>
   );

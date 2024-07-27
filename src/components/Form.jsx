@@ -1,6 +1,10 @@
 import { memo, useRef } from "react";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import emailjs from "@emailjs/browser";
+=======
+import emailjs from '@emailjs/browser';
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
 =======
 import emailjs from '@emailjs/browser';
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
@@ -8,6 +12,7 @@ import { getToast, getToastWarn } from "../services/option";
 
 // million-ignore
 function Form() {
+<<<<<<< HEAD
 <<<<<<< HEAD
   const name_ref = useRef();
   const email_ref = useRef();
@@ -104,6 +109,8 @@ function Form() {
 
 export default memo(Form);
 =======
+=======
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
     const name_ref = useRef();
     const email_ref = useRef();
 
@@ -178,5 +185,9 @@ export default memo(Form);
     )
 }
 
+<<<<<<< HEAD
+export default memo(Form);
+>>>>>>> bebb75833497644622367fc38805aa4eaad1c149
+=======
 export default memo(Form);
 >>>>>>> bebb75833497644622367fc38805aa4eaad1c149
