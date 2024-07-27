@@ -1,0 +1,10 @@
+Options -MultiViews
+RewriteEngine On
+RewriteBase /
+
+# Serve files that exist directly
+RewriteCond %{REQUEST_FILENAME} !-f
+# Serve directories that exist directly
+RewriteCond %{REQUEST_FILENAME} !-d
+# Serve any other requests as the main index.html page
+RewriteRule ^ index.html [QSA,L]
